@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+   
+    <title>Borrowing Receipt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container receipt">
+              <h1>Central Library</h1>
+        <h2>Book Borrowing Receipt</h2>
+
+        <div id="receiptDetails">
+         
+		 
+		 <p>Loading receipt..........</p>
+        </div>
+
+            <h3>Borrowed Books</h3>
+        <ol id="receiptBooks"></ol>
+
+        <div class="total box">
+        <p>Number of Books: <strong id="receiptCount">0</strong></p>
+            
+			<p>Deposit per Book: <strong>200</strong></p>
+            
+			      <p>Total Refundable Deposit:
+                <strong id="receiptDeposit">0</strong>
+            </p>
+        </div>
+
+          
+        <p class="success smessage">
+            Borrowing confirmed successfully!
+        </p>
+
+             <div class="actions">
+            <button type="button" onclick="window.print()">
+                Print Receipt
+            </button>
+            <button type="button" onclick="window.location.href='index.html'">
+                Back to Borrow Page
+            </button>
+        </div>
+    </div>
+
+    <script src="receipt.js"></script>
+</body>
+</html>
+
+
