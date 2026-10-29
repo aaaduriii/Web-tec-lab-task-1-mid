@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #222;
+}
+
+.container {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #14536b;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+h2,
+h3 {
+    color: #14536b;
+}
+
+label {
+    display: block;
+    margin: 15px 0 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: 2px solid #3987a3;
+    border-color: #3987a3;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.input-group input {
+    flex: 1;
+    min-width: 0;
+}
+
+button {
+    padding: 11px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #14536b;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #0c3d50;
+}
+
+button{
+    outline: 3px solid #f0a500;
+    outline-offset: 2px;
+}
+
+.confirm-btn {
+    width: 100%;
+    margin-top: 15px;
+    background-color: #218838;
+    font-weight: bold;
+}
+
+.confirm-btn {
+    background-color: #176b2a;
+}

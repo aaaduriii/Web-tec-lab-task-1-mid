@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Central Library Book Borrowing</h1>
+
+        <form id="borrowForm">
+            <label for="studentName">Student Name</label>
+            <input
+                type="text"
+                id="studentName"
+                placeholder="Enter your name"
+                required
+            >
+
+            <label for="book">Book Title</label>
+            <div class="input group">
+                <input
+                    type="text"
+                    id="book"
+                    placeholder="Enter book title"
+                >
+                <button type="button" id="addBook">Add Book</button>
+            </div>
+
+            <h2>Selected Books</h2>
+            <ul id="bookList"></ul>
+
+            <p id="message" role="status"></p>
+
+            <p>Total Books: <strong id="bookCount">0</strong> / 3</p>
+            <p>Refundable Deposit: <strong id="deposit">0</strong></p>
+
+            <button type="submit" class="confirm-btn">
+                Confirm Borrowing
+            </button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
